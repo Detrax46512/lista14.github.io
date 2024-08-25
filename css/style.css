@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+nav ul{
+    background-color: rgb(3, 3, 80);
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a:link, a:visited {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+header img{
+    width: 100%;
+}
+
+.secaoCinza {
+    background-color: rgb(226, 226, 226);
+}
+
+.secaobranca {
+    background-color: white;
+}
+
+body {
+    background-color: black;
+}
+
+section{
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
+section h1, section h2, section p {
+    margin: 20px 0px;
+}
+
+section button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+section button:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+
+section p{
+    line-height: 1.5em;
+}
+
+.btnAzul{
+    background-color: blue;
+}
+
+.btnpreto{
+    background-color: black;
+}
+
+.armario{
+    display: flex;
+    flex-direction: row;
+}
+
+.caixaOrg{
+    width: 100%;
+    text-align: center;
+}
+
+.uberCaracteristicas img{
+    width: 80%;
+}
+
+.armarin{
+    display: flex;
+    flex-direction: column;
+}
+
+.caixadois{
+    width: 100%;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
